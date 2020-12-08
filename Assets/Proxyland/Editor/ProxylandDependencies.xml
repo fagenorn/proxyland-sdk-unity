@@ -15,7 +15,7 @@
       
     <androidPackage spec="com.neovisionaries:nv-websocket-client:2.10" />
       
-    <androidPackage spec="com.betroix.proxyland:proxyland-sdk:1.2">
+    <androidPackage spec="com.betroix.proxyland:proxyland-sdk:1.3">
       <repositories>
         <repository>Assets/Proxyland/Plugins/Android/m2repository</repository>
       </repositories>
