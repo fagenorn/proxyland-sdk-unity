@@ -14,8 +14,14 @@
     <androidPackage spec="com.google.protobuf:protobuf-javalite:3.13.0" />
       
     <androidPackage spec="com.neovisionaries:nv-websocket-client:2.10" />
-      
-    <androidPackage spec="com.betroix.proxyland:proxyland-sdk:1.4">
+    
+    <androidPackage spec="androidx.work:work-runtime:2.4.0" />
+    
+    <androidPackage spec="androidx.work:work-runtime-ktx:2.4.0" />
+    
+    <androidPackage spec="androidx.work:work-rxjava3:2.4.0" />
+
+    <androidPackage spec="com.betroix.proxyland:proxyland-sdk:1.5">
       <repositories>
         <repository>Assets/Proxyland/Plugins/Android/m2repository</repository>
       </repositories>

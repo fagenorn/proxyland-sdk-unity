@@ -26,7 +26,7 @@ public static class Proxyland
     public static void Init(string parnterId, string apiKey)
     {
 #if UNITY_ANDROID && !UNITY_EDITOR
-        _proxylandStatic.Call("initializeAsync", _currentActivity, parnterId, apiKey, null, null);
+        _proxylandStatic.Call("initializeAsync", _currentActivity, parnterId, apiKey);
 #endif
     }
 }
